@@ -1,0 +1,41 @@
+/* pages/my/my.wxss */
+page{
+    background-color: rgb(247, 255, 248);
+}
+.header{
+    margin: auto;
+}
+.background{
+    width: 100vh;
+    height: 300rpx;
+    background-color: rgb(10, 105, 105);
+}
+.head{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 50%;
+    margin-left: 70rpx;
+    margin-top: -120rpx;
+    background-color: rgb(155, 134, 15);
+}
+.title{
+    margin: auto;
+    display: flex;
+}
+.tab-left,.tab-right{
+    margin: 50rpx 20rpx;
+    width: 200rpx;
+    height: 60rpx;
+    text-align: center;
+}
+.tab-active{
+    color: rgb(155, 134, 15);
+    border-bottom: 1px solid rgb(155, 134, 15);
+}
+.content{
+    width: 660rpx;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}

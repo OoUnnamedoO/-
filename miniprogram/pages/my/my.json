@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "send":"./send/send",
+    "unsend":"./unsend/unsend"
+  }
+}

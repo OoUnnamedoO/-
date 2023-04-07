@@ -1,0 +1,9 @@
+/* pages/index/index.wxss */
+.pic{
+    background-color: aqua;
+    height: 700rpx;
+}
+.write{
+    background-color: rgb(86, 228, 86);
+    color: #fff;
+}

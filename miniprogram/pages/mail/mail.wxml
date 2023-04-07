@@ -1,0 +1,53 @@
+<!--pages/mail/mail.wxml-->
+<view class="container">
+<!--发送人-->
+<view class="sender">
+<view style="margin-left: 25rpx;">发送人：</view>
+<input type="text" class="sender-i" placeholder="请输入名称" value="{{sender}}" bindinput="senderChange"/>
+</view>
+
+<!--接收邮箱-->
+<view class="addressee">
+<view style="margin-left: 25rpx;">收件邮箱：</view>
+<input type="text" class="addressee-i" placeholder="例：1234567890@qq.com" value="{{addressee}}" bindinput="addresseeChange"/>
+</view>
+
+<!--标题-->
+<view class="subject">
+<view style="margin-left: 25rpx;">主题：</view>
+<input type="text" class="subject-i" placeholder="请输入主题" value="{{subject}}" bindinput="subjectChange"/>
+</view>
+
+<!--发送时间-->
+<view class="sendTime">
+<view style="margin-left: 25rpx;">发送时间：</view>
+<!--日期-->
+<view class="date">
+<picker mode="date" value="{{date}}" start="{{today}}" bindchange="dateChange">
+<view>{{date}}</view>
+</picker>
+</view>
+
+<!--时间-->
+<view class="time">
+<picker mode="time" value="{{time}}" bindchange="timeChange">
+<view>{{time}}</view>
+</picker>
+</view>
+</view>
+
+<!--是否公开-->
+<view class="public">
+<view>是否公开</view>
+<switch class="public-c" value="{{isPublic}}" bindchange="checkChange"></switch>
+</view>
+
+<!--内容-->
+<view class="mailContent">
+<textarea name="" id="" cols="30" rows="15" maxlength="2000" class="mailContent-i" placeholder="写点什么吧..." value="{{text}}" bindinput="textChange"></textarea>
+</view>
+<!--提交-->
+<view class="summit">
+<button class="summit-b" style="width: 660rpx;"><text class="summit-t" bindtap="sendmail">提交</text></button>
+</view>
+</view>

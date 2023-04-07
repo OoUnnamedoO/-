@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/mail/mail",
+        "pages/public/public",
+        "pages/my/my",
+        "pages/my/send/send",
+        "pages/my/unsend/unsend"
+    ],
+    "tabBar": {
+        "backgroundColor": "F7FFF8",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/public/public",
+                "text": "广场"
+            },
+            {
+                "pagePath": "pages/my/my",
+                "text": "我的"
+            }
+        ]
+    },
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F7FFF8",
+        "navigationBarTitleText": "时光邮局",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2",
+    "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,21 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+
+<view class="header">
+<view class="background">
+
+</view>
+<view class="head">
+</view>
+</view>
+
+<view class="title">
+    <view id='tableft' class='tab-left {{currentTab === 0 ? "tab-active":""}}' bindtap='switchTab'>未发送</view>
+    <view id='tabright' class='tab-right {{currentTab === 1 ? "tab-active" : ""}}' bindtap='switchTab'>已发送</view>
+</view>
+
+<view class="content">
+<view class='content-wrapper' wx:if='{{currentTab === 0}}'><send/></view>
+<view class='content-wrapper' wx:if='{{currentTab === 1}}'><unsend/></view>
+</view>
+</view>

@@ -1,0 +1,72 @@
+/* pages/mail/mail.wxss */
+page{
+    background-color: rgb(247, 255, 248);
+}
+.container{
+    padding-top: 60rpx;
+    justify-content: space-around;
+    height: 1380rpx;
+    font-size: 25rpx;
+}
+.sender,.addressee,.subject,.sendTime{
+    margin: auto;
+    display: flex;
+    border: 1rpx solid rgb(255, 215, 82);
+    font-style: oblique;
+    width: 660rpx;
+    height: 82rpx;
+    align-items: center;
+    border-radius: 60rpx;
+}
+.sender-i{
+    width: 420rpx;
+    margin-left: 30rpx;
+}
+.addressee-i{
+    width: 400rpx;
+    margin-left: 18rpx;
+}
+.subject-i{
+    width: 440rpx;
+    margin-left: 30rpx;
+}
+.date{
+    margin-left: 30rpx;
+}
+.time{
+    margin-left: 40rpx;
+}
+.public{
+    margin: auto;
+    display: flex;
+    width: 620rpx;
+}
+.public-c{
+    margin-left: 20rpx;
+    background-color: rgb(247, 255, 248);
+}
+.mailContent{
+    margin: auto;
+    border: 1rpx solid rgb(255, 215, 82);
+    border-radius: 60rpx;
+    height: 700rpx;
+    width: 660rpx;
+}
+.mailContent-i{
+    margin: 25rpx;
+    width: 620rpx;
+    height: 660rpx;
+}
+.summit{
+    margin: auto;
+}
+.summit-b{
+    border: 1rpx solid rgb(255, 215, 82);
+    border-radius: 80rpx;
+    height: 70rpx;
+    line-height: 35rpx;
+}
+.summit-t{
+    font-size: 32rpx;
+    color: rgb(250, 205, 57);
+}

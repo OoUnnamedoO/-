@@ -1,0 +1,6 @@
+<view class="pic">
+
+</view>
+<view>
+<button class="write" bindtap="write">写一封信</button>
+</view>
